@@ -1,0 +1,303 @@
+* {
+    background-color: darkslategrey;
+    color:aliceblue;
+}
+
+a {
+    color: inherit;
+    background-color: inherit;
+    text-decoration: inherit;
+    }
+
+ul {
+    list-style-type: none;
+}
+
+.navbar{
+    padding: 5px;
+    padding-top: 0;
+    height: 170px;
+    border: 3px solid burlywood ;
+    border-radius: 40px;
+}
+
+
+.maintitle {
+    font-size: 50px;
+    text-align: left;
+    text-indent: 20px;
+    padding: 10px;
+    width: fit-content;
+    margin: 0;
+    border-radius: 40px;
+}
+
+span {
+    font-size: 15px;
+    color: burlywood;
+}
+
+.navlist {
+    border: 3px dotted burlywood;
+    border-radius: 40px;
+    display: flex;
+    position: relative;
+    bottom: 25px;
+    right: 20px;
+    flex-wrap: wrap;
+    float: right;    
+    
+}
+
+#navlist {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    border-radius: 40px;
+    background-color: burlywood;
+    color:saddlebrown;
+    margin-inline: 10px;
+}
+.backgroundimg {
+    border: 3px solid burlywood;
+    border-radius: 40px;
+    width: 1880px;
+}
+
+.aboutme {
+    margin: 50px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid burlywood;
+    border-radius: 40px;
+    width: 800px;
+    text-align: justify;
+    line-height: 30px;
+    position:relative;
+    left: 100px;
+}
+
+#aboutmetitle {
+    padding: 10px;
+    font-size: 30px;
+}
+
+#aboutmepara {
+    padding: 15px;
+    text-indent: 40px;
+    border: 1px;
+    border-radius: 40px;
+    background-color: burlywood;
+    color: saddlebrown;
+    font-weight: 900;
+}
+.work {
+    margin: 50px;
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid burlywood;
+    border-radius: 40px;
+    width: 1200px;
+    position: relative;
+    left:500px;
+    flex-wrap: wrap;
+}   
+
+#worktitle {
+    font-size: 30px;
+}
+
+.horiseon {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid burlywood;
+    border-radius: 40px;
+    width: 1150px;
+
+}
+
+.horiseonimg {
+    border-radius: 40px;
+}
+
+.cssexercise {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid burlywood;
+    border-radius: 40px;
+    width: 550px;
+}
+
+.cssexerciseimg {
+    border-radius: 40px;
+}
+h5 {
+    font-size: 20px;
+}
+
+.rps {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid burlywood;
+    border-radius: 40px;
+    width: 550px;
+}
+
+.rpsimg {
+    border-radius: 40px;
+}
+
+.contactme {
+    margin: 50px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid burlywood;
+    border-radius: 40px;
+    width: 700px;
+    position: relative;
+    left: 200px;
+}
+
+.contactmelist {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#contactmetitle {
+    font-size: 30px;
+}
+
+.resume {
+    margin: 50px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid burlywood;
+    border-radius: 40px;
+    width: 700px;
+    position: relative;
+    left: 800px;
+}
+
+#resumetitle {
+    font-size: 30px;
+}
+
+.resumelink {
+    font-size: 20px;
+    text-indent: 50px;
+}
+
+.btt {
+    position: fixed;
+    bottom: 10px;
+    float: left;
+    font-size: 25px;
+    padding: 20px;
+    border: 3px solid burlywood;
+    border-radius: 40px;
+    
+}
+
+#aboutmepara:hover {
+    transition: 1s;
+	scale: 110%;
+}
+
+
+.horiseon:hover {
+    transition: 1s;
+	scale: 110%;
+}
+
+.cssexercise:hover {
+    transition: 1s;
+    scale: 110%
+}
+
+.rps:hover {
+    transition: 1s;
+    scale: 110%;
+}
+
+#navlist:hover {
+    transition: 1s;
+    scale: 110%;
+}
+
+#outlink {
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width:1200px) {
+    .aboutme, .work, .contactme, .resume {
+        position: relative;
+        left: 0;
+        
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    .work, .horiseon {
+        width: 50%;
+        
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .aboutme, .work, .contactme, .resume {
+        position: relative;
+        left: 0;
+        width: 60%;  
+        font-size: smaller;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .horiseon {
+        position: relative;
+        left: 0;
+        width: 36%;  
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .cssexercise {
+        position: relative;
+        left: 0;
+        width: 54%;  
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .rps {
+        position: relative;
+        left: 0;
+        width: 15%;  
+    
+}
+}
+
+@media screen and (max-width:320px) {
+    .aboutme, .work, .contactme, .resume {
+        position: relative;
+        left: 0;
+        width: 60%;  
+        font-size: 10px;
+    }
+    
+}
